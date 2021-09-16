@@ -121,8 +121,3 @@ img {
     #pong-body {
         grid-template-columns: 100%;
     }
-}
-
-#body-main {
-    padding-top: 250px;
-}
