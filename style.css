@@ -5,3 +5,28 @@ body {
 .nes-list {
     font-family: 'Courier New', Courier, monospace;
 }
+
+header {
+    position: fixed !important;
+    height: 25vh;
+    width: 100%;
+    padding: 0;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.4) !important;
+}
+nav {
+    position: fixed;
+    text-align: center;
+    display: grid;
+    grid-template-columns:  33.33% 33.33% 33.33%;
+    margin-right: 10px;
+    padding: 0;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px !important;
+}
+
+.mainbody {
+    padding-top: 250px;
+}
