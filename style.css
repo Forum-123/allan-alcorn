@@ -1,7 +1,53 @@
 body {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', serif;
 }
 
-.nes-list {
+header {
+    position: fixed !important;
+    height: 25vh;
+    width: 100%;
+    padding: 0;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.4) !important;
+}
+
+nav {
+    position: fixed;
+    text-align: center;
+    display: grid;
+    grid-template-columns:  33.33% 33.33% 33.33%;
+    margin-right: 10px;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 30px !important;
+}
+
+.nes-list, .job, .education {
     font-family: 'Courier New', Courier, monospace;
+}
+
+#education {
+    float: right;
+    width: 40%;
+}
+
+.member-card {
+    float: left;
+    width: 58%;
+    display: flex;
+    text-transform: uppercase;
+    background-color: white;
+    border-color: black;
+}
+
+.is-rounded {
+    display: relative;
+}
+
+.profile {
+    margin-left: 30px;
+    text-align: center;
 }
