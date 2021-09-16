@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+article {
+    display: grid;
+}
+
+.title {
+    font-weight: bold;
+}
+
+nav, article {
+    margin: 0 1rem;
+}
