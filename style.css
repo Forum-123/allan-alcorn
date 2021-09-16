@@ -8,10 +8,12 @@ body {
 
 header {
     position: fixed !important;
-    height: 25vh;
+    height: 200px;
     width: 100%;
     padding: 0;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.4) !important;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 6;
 }
 nav {
     position: fixed;
@@ -21,6 +23,7 @@ nav {
     margin-right: 10px;
     padding: 0;
     width: 100%;
+
 }
 
 .title {
@@ -29,4 +32,39 @@ nav {
 
 .mainbody {
     padding-top: 250px;
+    
+}
+
+#pong-body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#card {
+    margin: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+}
+
+img {
+    max-width: 100%;
+    height: 50vh;
+}
+.snes-jp-logo {
+    justify-self: center;
+}
+
+#back {
+    grid-column-start: 2;
+}
+
+#bottom {
+    margin: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.4) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #pong-body {
+        grid-template-columns: 100%;
+    }
 }

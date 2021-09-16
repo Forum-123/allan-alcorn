@@ -3,6 +3,16 @@
 <head>
   <title>Basic Pong HTML Game</title>
   <meta charset="UTF-8">
+  <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <!-- core style only -->
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   <style>
   html, body {
     height: 100%;
@@ -14,9 +24,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
   }
   header {
-      background-color: yellow;
+      background-color: white;
       position: fixed;
       top: 0;
       width: 100vw;
@@ -24,13 +35,17 @@
   canvas {
       background-color: black;
       border: 2px solid black;
+      margin-top: 350px;
   }
   </style>
 </head>
 <body>
-    <header>
-        <a href=""><button>Back to site</button></a>
-    </header>
+  <header class="nes-container with-title is-centered">
+    <h1 class="title">PONG</h1>
+    <nav class="nes-container">
+        <a id="back" href="pong.html"><button class="nes-btn is-primary">BACK TO SITE</button></a>
+     </nav>  
+</header>
 <canvas width="750" height="585" id="game"></canvas>
 <script>
 const canvas = document.getElementById('game');
