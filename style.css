@@ -39,10 +39,15 @@ nav {
 .member-card {
     float: left;
     width: 58%;
+    height: 200px;
     display: flex;
     text-transform: uppercase;
     background-color: white;
     border-color: black;
+}
+
+#allanimage {
+    max-height: 100% ;
 }
 
 .is-rounded {
@@ -52,6 +57,7 @@ nav {
 .profile {
     margin-left: 30px;
     text-align: center;
+}
 
 header {
     position: fixed !important;
@@ -62,6 +68,7 @@ header {
     background-color: rgba(255, 255, 255, 1);
     z-index: 6;
 }
+
 nav {
     position: fixed;
     text-align: center;
@@ -102,7 +109,7 @@ img {
 }
 
 #back {
-    grid-column-start: 2;
+    grid-column-start: 1;
 }
 
 #bottom {
@@ -115,6 +122,3 @@ img {
     #pong-body {
         grid-template-columns: 100%;
     }
-
-
-}
