@@ -55,7 +55,7 @@ img {
 }
 
 #back {
-    grid-column-start: 2;
+    grid-column-start: 1;
 }
 
 #bottom {
@@ -67,4 +67,9 @@ img {
     #pong-body {
         grid-template-columns: 100%;
     }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
 }
