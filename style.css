@@ -11,6 +11,14 @@ header {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.4) !important;
 }
 
+#header {
+    height: 25vh;
+    width: 100%;
+    padding: 0;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.4) !important;
+    margin-bottom: 20px;
+}
+
 nav {
     position: fixed;
     text-align: center;
