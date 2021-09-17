@@ -11,6 +11,14 @@ header {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.4) !important;
 }
 
+#header {
+    height: 25vh;
+    width: 100%;
+    padding: 0;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.4) !important;
+    margin-bottom: 20px;
+}
+
 nav {
     position: fixed;
     text-align: center;
@@ -122,3 +130,19 @@ img {
     #pong-body {
         grid-template-columns: 100%;
     }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {      
+        background-color: black;
+        color: white;
+    }
+    .nes-container {
+        border-color: white;
+        background-color: rgb(37, 37, 37);
+        color: white;
+    }
+    .title {
+        color: black;
+    }
+}
