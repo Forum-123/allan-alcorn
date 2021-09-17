@@ -1,3 +1,17 @@
 article {
     display: grid;
 }
+
+html {
+    overflow: scroll !important;
+}
+
+body {
+    display: inline-flexbox;
+    overflow: scroll !important;
+}
+
+#content-body {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+}
