@@ -83,3 +83,18 @@ img {
         grid-template-columns: 100%;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {      
+        background-color: black;
+        color: white;
+    }
+    .nes-container {
+        border-color: white;
+        background-color: rgb(37, 37, 37);
+        color: white;
+    }
+    .title {
+        color: black;
+    }
+}
