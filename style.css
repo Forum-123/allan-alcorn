@@ -41,11 +41,7 @@ nav {
     height: auto;
 }
 
-#body-main {
-    padding-top: 200px;
-}
-
-.mainbody {
+.homepage-body, .mainbody {
     padding-top: 250px;
 }
 
